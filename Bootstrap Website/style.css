@@ -1,3 +1,21 @@
-.col {
+a.navbar-brand {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgba(248, 248, 89, 0.742);
+}
+
+.col h2 {
+  font-size: 29px;
+}
+
+.dash-image {
+  width: 130px;
+  padding-left: 15px;
+  padding-top: 7px;
 }
