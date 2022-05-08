@@ -1,0 +1,124 @@
+.box {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+  background-color: red;
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 200px;
+  }
+}
+
+.bouncy {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  background-color: green;
+  border-radius: 100%;
+  margin-left: 400px;
+  animation-name: bouncy-ball;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bouncy-ball {
+  0% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.heart {
+  transform-origin: center;
+  font-size: 80px;
+  animation-name: heartbeat;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(2);
+  }
+}
+
+.dot-container {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  font-size: 40px;
+}
+
+.dot-1 {
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 200ms;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+.dot-2 {
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 400ms;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+.dot-3 {
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 600ms;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+.dot-4 {
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 800ms;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+.dot-5 {
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 1000ms;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes loading {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}

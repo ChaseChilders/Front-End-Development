@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Form 1</legend>
+      <label>
+        Name
+        <input type="text" name="text">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Form 2</legend>
+      <p>
+        <input type="radio" id="movie1" name="movie" value="movie1">
+        <label for="movie1">Avengers</label>
+      </p>
+      <p>
+        <input type="radio" id="movie2" name="movie" value="movie2">
+        <label for="movie2">Back to the Future</label>
+      </p>
+      <p>
+        <input type="radio" id="movie3" name="movie" value="movie3">
+        <label for="movie3">I am Legend</label>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Form 3</legend>
+      <p>
+        <label for="movie-genre">Fav Genre</label>
+        <select id="movie-genre" name="movie-genre">
+          <option>Action</option>
+          <option>Adventure</option>
+          <option>Comedy</option>
+          <option>Rom Com</option>
+          <option>Horror</option>
+        </select>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Pizza Order</legend>
+      <p>
+        <label for="crust">Crust</label>
+        <select id="crust" name="crust">
+          <option>Thin</option>
+          <option>Thick</option>
+          <option>Cheese Stuffed</option>
+          <option>Gluten Free</option>
+          <option>Cauliflower</option>
+          <option>Detroit</option>
+          <option>Chicago</option>
+        </select>
+      </p>
+      <p>
+        Toppings:
+      </p>
+      <p>
+        <label for="toppings">Pepperoni</label>
+        <input type="checkbox" id="toppings">
+      </p>
+      <p>
+        <label for="toppings">Sausage</label>
+        <input type="checkbox" id="toppings">
+      </p>
+      <p>
+        <label for="toppings">Bacon</label>
+        <input type="checkbox" id="toppings">
+      </p>
+      <p>
+        <label for="toppings">Mushrooms</label>
+        <input type="checkbox" id="toppings">
+      </p>
+      <p>
+        <label for="toppings">Onions</label>
+        <input type="checkbox" id="toppings">
+      </p>
+      <p>
+        <label for="toppings">Peppers</label>
+        <input type="checkbox" id="toppings">
+      </p>
+      <p>
+        <label for="toppings">Pineapple</label>
+        <input type="checkbox" id="toppings">
+      </p>
+      <p>
+        <label for="pickup-delivery">Pickup or Delivery:</label>
+        <select id="pickup-delivery" name="pickup-delivery">
+          <option>Pickup</option>
+          <option>Delivery</option>
+        </select>
+      </p>
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+      </p>
+      <p>
+        <label for="comments">Instructions</label>
+        <textarea name="comments" id="comments" cols="0" rows="0">
+        </textarea>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Forms</legend>
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+      </p>
+      <p>
+        <label for="age">Age:</label>
+        <input type="number" required id="age" min="0" max="100">
+      </p>
+      <p>
+        <label for="name">Username:</label>
+        <input type="text" id="name" required minlength="1" maxlength="15">
+      </p>
+    </fieldset>
+    <button type="submit">Send it!</button>
+    <fieldset>
+      <legend>Sign Up</legend>
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required minlength="5">
+      </p>
+      <p>
+        <label for="password">Password:</label>
+        <input type="text" id="password" required minlength="6" maxlength="15">
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </p>
+      <p>
+        <label for="comments">About Me:</label>
+        <textarea name="comments" id="comments" cols="30" rows="10">
+        </textarea>
+      </p>
+      <p>
+        <label for="robot-check">Robot Check:</label>
+        <input type="text" id="robot-check" placeholder="fff-fff-fff-fff-fff" pattern="\d{3}-\d{3}=\d{3}-\d{3}">
+      </p>
+    </fieldset>
+  </form>
+</body>
+
+</html>

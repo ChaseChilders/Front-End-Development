@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>User Information</legend>
+      <p>
+
+      </p>
+      <p>
+        <label for="email-address">Email</label>
+        <input type="email" id="email-address" name="email-address">
+      </p>
+    </fieldset>
+
+    <p>
+      <label for="color">Fav Color</label>
+      <input type="color" id="color" name="color">
+    </p>
+
+    <p>
+      <label for="preferred pancakes">Pancakes</label>
+      <input type="range" id="preferred pancakes" name="preferred pancakes" min="0" max="5">
+    </p>
+
+    <p>
+      <label for="">Birthdate</label>
+      <input type="datetime-local">
+    </p>
+
+    <p>
+      <label for="">Birthdate</label>
+      <input type="week">
+    </p>
+    <fieldset>
+      <legend>What languages do you like?</legend>
+      <p>
+        <input type="checkbox" id="python">
+        <label for="python">Python</label>
+      </p>
+      <p>
+        <input type="checkbox" id="html">
+        <label for="html">HTML</label>
+      </p>
+      <p>
+        <input type="checkbox" id="css">
+        <label for="css">CSS</label>
+      </p>
+      <p>
+        <input type="checkbox" id="javascript">
+        <label for="javascript">JavaScript</label>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>What language is your favorite?</legend>
+      <p>
+        <input type="radio" id="favpython" name="favlang" value="py">
+        <label for="favpython">Python</label>
+      </p>
+      <p>
+        <input type="radio" id="favhtml" name="favlang" value="html">
+        <label for=" favhtml">HTML</label>
+      </p>
+      <p>
+        <input type="radio" id="favcss" name="favlang" value="css">
+        <label for=" favcss">CSS</label>
+      </p>
+      <p>
+        <input type="radio" id="favjavascript" name="favlang" value="js">
+        <label for=" favjavascript">JavaScript</label>
+      </p>
+    </fieldset>
+    <p>
+      <label for="comments">Comments</label>
+      <textarea name="comments" id="comments" cols="30" rows="10">
+        Hello
+        My name is inigo montoya
+      </textarea>
+    </p>
+    <p>
+      <label for="movie-genre">Fav Genre</label>
+      <select id="movie-genre" name="movie-genre">
+        <option>Action</option>
+        <option>Adventure</option>
+        <option>Comedy</option>
+      </select>
+    </p>
+
+    <!-- regular expression -->
+    <p>
+      <label for="cc">Credit Card</label>
+      <input type="text" name="cc" id="cc" title="Please enter a valid credit card number"
+        pattern="\d{4}-\d{4}=\d{4}-\d{4}">
+    </p>
+
+
+    <button type="submit">Send it!</button>
+  </form>
+</body>
+
+</html>
